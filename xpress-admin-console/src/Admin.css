@@ -1,0 +1,19 @@
+
+.Admin {
+    word-wrap: break-word;
+    /* Deprecated but widely supported */
+    overflow-wrap: break-word;
+    /* Modern equivalent */
+    max-width: 90vw;
+
+    text-align: left;
+
+    li { 
+        margin-bottom: 4rem;
+    }
+
+}
+
+.center {
+    text-align: center;
+}

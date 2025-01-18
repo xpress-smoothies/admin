@@ -15,7 +15,6 @@ const GoogleAuth = () => {
             // Fetch user info
             const userInfo = await fetch(
                 "https://www.googleapis.com/oauth2/v3/userinfo",
-                // "https://www.googleapis.com/oauth2/v3/userinfo.email",
                 {
                     headers: {
                         Authorization: `Bearer ${tokenResponse.access_token}`,
@@ -66,9 +65,12 @@ const GoogleAuth = () => {
 
                 </div>}
 
-                {!gudMails.includes(connectedEmail) && <div>
+                {!gudMails?.includes(connectedEmail) && <div>
                     <p>
-                        🫠 Uh oh! Ask James to add this email to the admin list.
+                        🫠 Uh oh! This is not an approved email!
+                    </p>
+                    <p>
+                        Ask James to add {connectedEmail} to the admin list.
                     </p>
 
                     <button onClick={logout}>Logout</button>
