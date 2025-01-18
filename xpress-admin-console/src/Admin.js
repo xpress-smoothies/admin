@@ -47,7 +47,7 @@ function Admin() {
                     xpresssmokeshop.com: <a href="https://xpresssmokeshop.com">https://xpresssmokeshop.com</a>
                 </li>
                 <li>
-                    Source code for xpresssmkoeshop.com: <a href="https://github.com/xpress-smoothies/website">https://github.com/xpress-smoothies/website</a>
+                    Source code for xpresssmokeshop.com: <a href="https://github.com/xpress-smoothies/website">https://github.com/xpress-smoothies/website</a>
                 </li>
                 <li>
                     Source code for this admin website: <a href="https://github.com/xpress-smoothies/admin">https://github.com/xpress-smoothies/admin</a>
