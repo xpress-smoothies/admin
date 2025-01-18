@@ -1,4 +1,3 @@
-// src/GoogleAuth.js
 import React, { useState } from "react";
 import { useGoogleLogin } from "@react-oauth/google";
 import Admin from "./Admin";
